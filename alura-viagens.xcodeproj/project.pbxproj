@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18824B9A259D55B800F45697 /* alura_viagensApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18824B99259D55B800F45697 /* alura_viagensApp.swift */; };
+		18824B9C259D55B800F45697 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18824B9B259D55B800F45697 /* ContentView.swift */; };
+		18824B9E259D55B900F45697 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18824B9D259D55B900F45697 /* Assets.xcassets */; };
+		18824BA1259D55B900F45697 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18824BA0259D55B900F45697 /* Preview Assets.xcassets */; };
+		18824BB8259D6AE800F45697 /* Dados.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18824BB6259D6AE800F45697 /* Dados.swift */; };
+		18824BB9259D6AE800F45697 /* Viagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18824BB7259D6AE800F45697 /* Viagem.swift */; };
+		18824BBC259D6AFE00F45697 /* viagens.json in Resources */ = {isa = PBXBuildFile; fileRef = 18824BBB259D6AFE00F45697 /* viagens.json */; };
+		18824BC0259D716100F45697 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18824BBF259D716100F45697 /* HeaderView.swift */; };
+		18AE58E2259E00B900F64A23 /* CelulaViagemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AE58E1259E00B900F64A23 /* CelulaViagemView.swift */; };
+		18AE58E5259E1CDB00F64A23 /* MapaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AE58E4259E1CDB00F64A23 /* MapaView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18824B96259D55B800F45697 /* alura-viagens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "alura-viagens.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18824B99259D55B800F45697 /* alura_viagensApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alura_viagensApp.swift; sourceTree = "<group>"; };
+		18824B9B259D55B800F45697 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		18824B9D259D55B900F45697 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18824BA0259D55B900F45697 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18824BA2259D55B900F45697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18824BB6259D6AE800F45697 /* Dados.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dados.swift; sourceTree = "<group>"; };
+		18824BB7259D6AE800F45697 /* Viagem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Viagem.swift; sourceTree = "<group>"; };
+		18824BBB259D6AFE00F45697 /* viagens.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = viagens.json; sourceTree = "<group>"; };
+		18824BBF259D716100F45697 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		18AE58E1259E00B900F64A23 /* CelulaViagemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelulaViagemView.swift; sourceTree = "<group>"; };
+		18AE58E4259E1CDB00F64A23 /* MapaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapaView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18824B93259D55B800F45697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18824B8D259D55B800F45697 = {
+			isa = PBXGroup;
+			children = (
+				18824B98259D55B800F45697 /* alura-viagens */,
+				18824B97259D55B800F45697 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18824B97259D55B800F45697 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18824B96259D55B800F45697 /* alura-viagens.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18824B98259D55B800F45697 /* alura-viagens */ = {
+			isa = PBXGroup;
+			children = (
+				18824B99259D55B800F45697 /* alura_viagensApp.swift */,
+				18824BBE259D713D00F45697 /* Views */,
+				18824BB5259D6AE800F45697 /* Models */,
+				18824B9D259D55B900F45697 /* Assets.xcassets */,
+				18824BBB259D6AFE00F45697 /* viagens.json */,
+				18824BA2259D55B900F45697 /* Info.plist */,
+				18824B9F259D55B900F45697 /* Preview Content */,
+			);
+			path = "alura-viagens";
+			sourceTree = "<group>";
+		};
+		18824B9F259D55B900F45697 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				18824BA0259D55B900F45697 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		18824BB5259D6AE800F45697 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				18824BB6259D6AE800F45697 /* Dados.swift */,
+				18824BB7259D6AE800F45697 /* Viagem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		18824BBE259D713D00F45697 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18824B9B259D55B800F45697 /* ContentView.swift */,
+				18824BBF259D716100F45697 /* HeaderView.swift */,
+				18AE58E1259E00B900F64A23 /* CelulaViagemView.swift */,
+				18AE58E4259E1CDB00F64A23 /* MapaView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18824B95259D55B800F45697 /* alura-viagens */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18824BA5259D55B900F45697 /* Build configuration list for PBXNativeTarget "alura-viagens" */;
+			buildPhases = (
+				18824B92259D55B800F45697 /* Sources */,
+				18824B93259D55B800F45697 /* Frameworks */,
+				18824B94259D55B800F45697 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "alura-viagens";
+			productName = "alura-viagens";
+			productReference = 18824B96259D55B800F45697 /* alura-viagens.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18824B8E259D55B800F45697 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					18824B95259D55B800F45697 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 18824B91259D55B800F45697 /* Build configuration list for PBXProject "alura-viagens" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18824B8D259D55B800F45697;
+			productRefGroup = 18824B97259D55B800F45697 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18824B95259D55B800F45697 /* alura-viagens */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18824B94259D55B800F45697 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18824BA1259D55B900F45697 /* Preview Assets.xcassets in Resources */,
+				18824B9E259D55B900F45697 /* Assets.xcassets in Resources */,
+				18824BBC259D6AFE00F45697 /* viagens.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18824B92259D55B800F45697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18824BB9259D6AE800F45697 /* Viagem.swift in Sources */,
+				18AE58E5259E1CDB00F64A23 /* MapaView.swift in Sources */,
+				18824B9C259D55B800F45697 /* ContentView.swift in Sources */,
+				18824BB8259D6AE800F45697 /* Dados.swift in Sources */,
+				18824B9A259D55B800F45697 /* alura_viagensApp.swift in Sources */,
+				18824BC0259D716100F45697 /* HeaderView.swift in Sources */,
+				18AE58E2259E00B900F64A23 /* CelulaViagemView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		18824BA3259D55B900F45697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18824BA4259D55B900F45697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18824BA6259D55B900F45697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"alura-viagens/Preview Content\"";
+				DEVELOPMENT_TEAM = BJFSMC5J9X;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "alura-viagens/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.thonatas.alura-viagens";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18824BA7259D55B900F45697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"alura-viagens/Preview Content\"";
+				DEVELOPMENT_TEAM = BJFSMC5J9X;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "alura-viagens/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.thonatas.alura-viagens";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18824B91259D55B800F45697 /* Build configuration list for PBXProject "alura-viagens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18824BA3259D55B900F45697 /* Debug */,
+				18824BA4259D55B900F45697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18824BA5259D55B900F45697 /* Build configuration list for PBXNativeTarget "alura-viagens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18824BA6259D55B900F45697 /* Debug */,
+				18824BA7259D55B900F45697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18824B8E259D55B800F45697 /* Project object */;
+}
